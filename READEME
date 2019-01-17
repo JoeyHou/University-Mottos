@@ -1,0 +1,27 @@
+Author: Zhaoyi Hou (Joey)
+Last modified: Jan 16, 2019
+
+Running Environment: Python 3.6.2
+
+Description:
+This is an interesting project that deal with the mottos of U.S. universities and colleges. The overall idea is that, I as one of the chief editer of Panopath, a WeChat official accout (like a Facebook public page), came up with the idea of looking into the mottos of U.S. universities. Therefore, we first need to "mine" the mottos from the web. That's what this project does.
+
+In the folder, there are two .csv files, "National_University_Ranking.csv" and "LAC.csv". They are top50 national universities and top 50 liberal art colleges according to U.S. New. Ranking in 2019. I choose them because I am not sure if I can handle more data. They are the primary object of the project.
+
+In the jupyter notebook file "University_Missions.ipynb", there is the code for the project, which reads in the two .csv files above and produces an .csv file called "Combined.csv". That contains the mottos of those around 150 schools.
+
+Package used:
+Beautiful Soup 4.4: https://www.crummy.com/software/BeautifulSoup/bs4/doc
+Pandas: https://pandas.pydata.org
+
+Source of Data: 
+WikiPedia: https://en.wikipedia.org/
+(That's where I look for mottos.)
+
+I used Beautiful Soup to fetch data from the WikiPedia and organize them using Pandas. 
+
+After those coding, we end up composed an article discussing the interesting facts of U.S. Universities: 
+https://mp.weixin.qq.com/s/scvDOVCistCL2vPbUzAxoQ
+(It's in Chinese, though.)
+
+
